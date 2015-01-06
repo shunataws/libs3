@@ -59,7 +59,7 @@ extern int putenv(char *);
 
 static int forceG = 0;
 static int showResponsePropertiesG = 0;
-static S3Protocol protocolG = S3ProtocolHTTP;//changed by rrrfff
+static S3Protocol protocolG = S3ProtocolHTTPS;//changed by rrrfff
 static S3UriStyle uriStyleG = S3UriStyleVirtualHost;
 static int retriesG = 5;
 
